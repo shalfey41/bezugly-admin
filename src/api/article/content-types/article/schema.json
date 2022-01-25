@@ -28,7 +28,7 @@
     },
     "ogImageSrc": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "content": {
       "type": "richtext",
@@ -37,7 +37,7 @@
     "thumbnail": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
